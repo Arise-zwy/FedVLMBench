@@ -1,8 +1,10 @@
-# FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
+<img width="1681" height="1201" alt="image" src="https://github.com/user-attachments/assets/ee0dd8b6-bcef-4297-ad7b-8151345dc526" /># FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
 
 **OpenFedLLM** is a systematic benchmark for federated fine-tuning of VLMs. Please check our [paper](https://arxiv.org/abs/2506.09638) for details and the corresponding empirical study.
 
 FedVLMBench integrates two mainstream VLM architectures (encoder-based and encoder-free), four fine-tuning strategies, five FL algorithms, six multimodal datasets spanning four cross-domain single-task scenarios and two cross-domain multitask settings, covering four distinct downstream task categories. 
+
+![intro](fedvlmbench.png)
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
