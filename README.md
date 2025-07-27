@@ -1,4 +1,4 @@
-# FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
+# FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Model
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
