@@ -138,32 +138,34 @@ https://huggingface.co/showlab/show-o-512x512/tree/main
 #### Step2: Download Images
 Download the images in the ./images
 
-##### FGVC
-https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/
+##### Natural Image Datasets
+1. **FGVC Aircraft** [download](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  
+   <sub>*10,200 aircraft images with fine-grained annotations*</sub>
 
-##### COCO
-https://cocodataset.org/#home
+2. **COCO** [download](https://cocodataset.org/#home)  
+   <sub>*330K images for object detection/segmentation*</sub>
 
-##### RefCOCO
-https://github.com/lichengunc/refer
+3. **RefCOCO** [download](https://github.com/lichengunc/refer)  
+   <sub>*142K referring expressions for 50K COCO images*</sub>
 
-##### COCO-QA
-https://www.cs.toronto.edu/~mren/research/imageqa/data/cocoqa/
+4. **COCO-QA** [download](https://www.cs.toronto.edu/~mren/research/imageqa/data/cocoqa/)  
+   <sub>*78K visual questions based on COCO images*</sub>
 
-##### ScienceQA
-https://scienceqa.github.io/
+5. **ScienceQA** [download](https://scienceqa.github.io/)  
+   <sub>*21K multimodal science questions with explanations*</sub>
 
-##### RadGenome-ChestCT
-https://huggingface.co/datasets/RadGenome/RadGenome-ChestCT
+##### Medical Imaging Datasets
+6. **RadGenome-ChestCT** [download](https://huggingface.co/datasets/RadGenome/RadGenome-ChestCT)  
+   <sub>*3D CT scans with anatomical structure annotations*</sub>
 
-##### VQA-RAD
-https://huggingface.co/datasets/flaviagiammarino/vqa-rad
+7. **VQA-RAD** [download](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)  
+   <sub>*315 medical images with clinical QA pairs*</sub>
 
-##### MIMIC-CXR
-https://physionet.org/content/mimic-cxr/2.1.0/
+8. **MIMIC-CXR** [download](https://physionet.org/content/mimic-cxr/2.1.0/)  
+   <sub>*377K chest radiographs with free-text reports*</sub>
 
-##### SLAKE
-https://www.med-vqa.com/slake/
+9. **SLAKE** [download](https://www.med-vqa.com/slake/)  
+   <sub>*642 medical images with bilingual (EN/ZH) QA pairs*</sub>
 
 
 ### 4. Running Experiments
