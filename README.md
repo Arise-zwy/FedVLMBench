@@ -1,4 +1,4 @@
-<img width="1681" height="1201" alt="image" src="https://github.com/user-attachments/assets/ee0dd8b6-bcef-4297-ad7b-8151345dc526" /># FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
+# FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
 
 **OpenFedLLM** is a systematic benchmark for federated fine-tuning of VLMs. Please check our [paper](https://arxiv.org/abs/2506.09638) for details and the corresponding empirical study.
 
