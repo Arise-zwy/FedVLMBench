@@ -65,11 +65,11 @@ conda activate fedvlm
         ├── gen_FGVC_config.py
         └── gen_Nature_Multi_config.py
 
-
 ```
 <details close>
-<summary><b>Fed-FGVC:A Classification Vision-Language FL Dataset with 9,967 instances</b></summary>
-```
+<summary><b>Fed-FGVC: A Classification Vision-Language FL Dataset with 9,967 instances</b></summary>
+
+<pre>
 /Fed-FGVC
 ├── /clients
 │   ├── /train
@@ -77,7 +77,8 @@ conda activate fedvlm
 └── /central_training
     ├── /train
     └── /test
-```
+</pre>
+
 </details>
 
 
