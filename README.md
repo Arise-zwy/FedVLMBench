@@ -201,3 +201,15 @@ python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Mul
 ```
 
 
+### Citation
+If you find FedVLMbench useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2506.09638" target="_blank">paper</a>:
+```
+@article{federatedscope,
+  title = {FederatedScope: A Flexible Federated Learning Platform for Heterogeneity},
+  author = {Xie, Yuexiang and Wang, Zhen and Gao, Dawei and Chen, Daoyuan and Yao, Liuyi and Kuang, Weirui and Li, Yaliang and Ding, Bolin and Zhou, Jingren},
+  journal={Proceedings of the VLDB Endowment},
+  volume={16},
+  number={5},
+  pages={1059--1072},
+  year={2023}
+```
