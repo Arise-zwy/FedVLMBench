@@ -78,7 +78,7 @@ conda activate fedvlm
 ```
 
 #### Fed-Med
- <sub>*: A Medical Multitask Vision-Language FL Dataset with 20,590 instnces. Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and RadGenome-Chest CT(detection) datasets.*</sub>
+ <sub>*A Medical Multitask Vision-Language FL Dataset with 20,590 instnces. Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and RadGenome-Chest CT(detection) datasets.*</sub>
 ```
 /Fed-Med
 ├── /image
@@ -95,7 +95,7 @@ conda activate fedvlm
 ```
 
 #### Fed-RadGenome
- <sub>*: A Visual Detection Vision-Language FL Dataset with 8,744 instances*</sub>
+ <sub>*A Visual Detection Vision-Language FL Dataset with 8,744 instances*</sub>
 ```
 /Fed-RadGenome
 ├── /clients
@@ -108,7 +108,7 @@ conda activate fedvlm
 
 
 #### Fed-ScienceCap
- <sub>*: : A Caption Generation Vision-Language FL Dataset with 5,157 instances*</sub>
+ <sub>*A Caption Generation Vision-Language FL Dataset with 5,157 instances*</sub>
 ```
 /Fed-ScienceCap
 ├── /clients
