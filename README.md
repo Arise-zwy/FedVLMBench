@@ -169,7 +169,11 @@ https://huggingface.co/showlab/show-o-512x512/tree/main
 #### Step2: Download Images
 Download the images in the ./images
 
-##### Natural Image Datasets
+
+
+
+<details close>
+<summary><b>Natural Image Datasets:</b></summary>
 1. **FGVC Aircraft** [download](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)  
    <sub>*10,200 aircraft images with fine-grained annotations*</sub>
 
@@ -184,8 +188,11 @@ Download the images in the ./images
 
 5. **ScienceQA** [download](https://scienceqa.github.io/)  
    <sub>*21K multimodal science questions with explanations*</sub>
+</details>
 
-##### Medical Imaging Datasets
+
+<details close>
+<summary><b>Medical Imaging Datasets:</b></summary>
 6. **RadGenome-ChestCT** [download](https://huggingface.co/datasets/RadGenome/RadGenome-ChestCT)  
    <sub>*3D CT scans with anatomical structure annotations*</sub>
 
@@ -197,6 +204,8 @@ Download the images in the ./images
 
 9. **SLAKE** [download](https://www.med-vqa.com/slake/)  
    <sub>*642 medical images with bilingual (EN/ZH) QA pairs*</sub>
+</details>
+
 
 
 ### 4. Running Experiments
