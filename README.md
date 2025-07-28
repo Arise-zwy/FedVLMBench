@@ -34,7 +34,12 @@ conda activate fedvlm
 ```
 
 ### 2. Configuration
+<details close>
+<summary><b>dataset summary:</b></summary>
 
+![dataset](./dataset.png)
+
+</details>
 #### Code
 ```
 /OpenFedLLM-main
@@ -55,13 +60,9 @@ conda activate fedvlm
     └── /encoder_based
         ├── gen_FGVC_config.py
         └── gen_Nature_Multi_config.py
+
+
 ```
-<details close>
-<summary><b>dataset summary:</b></summary>
-
-![dataset](./dataset.png)
-
-</details>
 #### Fed-FGVC
  <sub>*A Classification Vision-Language FL Dataset with 9,967 instances*</sub>
 ```
