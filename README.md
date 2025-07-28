@@ -53,7 +53,7 @@ conda activate fedvlm
         └── gen_Nature_Multi_config.py
 ```
 
-#### Fed-FGVC
+#### Fed-FGVC: A Classification Vision-Language FL Dataset.
 ```
 /Fed-FGVC
 ├── /clients
@@ -64,7 +64,21 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-Med
+#### Fed-Nature: A Natural Multitask Vision-Language FL Dataset.
+ <sub>*Fed-Nature integrates three public vision-language datasets — COCO(classification), RefCOCO(visual grounding and captioning generation), and COCO-QA(VQA)*</sub>
+```
+/Fed-Nature
+├── /clients
+│   ├── /train
+│   └── /test
+└── /central_training
+    ├── /train
+    └── /test
+```
+
+#### Fed-Med: A Medical Multitask Vision-Language FL Dataset.
+ <sub>*Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and
+RadGenome-Chest CT(detection) datasets.*</sub>
 ```
 /Fed-Med
 ├── /image
@@ -80,7 +94,7 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-RadGenome
+#### Fed-RadGenome: A Visual Detection Vision-Language FL Dataset.
 ```
 /Fed-RadGenome
 ├── /clients
@@ -91,19 +105,8 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-Nature
-```
-/Fed-Nature
-├── /clients
-│   ├── /train
-│   └── /test
-└── /central_training
-    ├── /train
-    └── /test
-```
 
-
-#### Fed-ScienceCap
+#### Fed-ScienceCap: A Caption Generation Vision-Language FL Dataset.
 ```
 /Fed-ScienceCap
 ├── /clients
