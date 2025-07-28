@@ -67,7 +67,7 @@ conda activate fedvlm
 
 <details open>
 <summary><b>Dataset Summary:</b></summary>
-![dataset](./dataset.png)
+![dataset](dataset.png)
 </details>
 
 
