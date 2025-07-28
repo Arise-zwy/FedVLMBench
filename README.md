@@ -68,6 +68,9 @@ conda activate fedvlm
 
 ```
 #### Fed-FGVC
+<details close>
+<summary><b>Fed-FGVC:</b></summary>
+
  <sub>*A Classification Vision-Language FL Dataset with 9,967 instances*</sub>
 ```
 /Fed-FGVC
@@ -78,6 +81,9 @@ conda activate fedvlm
     ├── /train
     └── /test
 ```
+
+</details>
+
 
 #### Fed-Nature
  <sub>*A Natural Multitask Vision-Language FL Dataset with 24,000 instances, integrating three public vision-language datasets — COCO(classification), RefCOCO(visual grounding and captioning generation), and COCO-QA(VQA)*</sub>
