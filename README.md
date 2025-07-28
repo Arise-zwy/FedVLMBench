@@ -65,7 +65,7 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-Nature.
+#### Fed-Nature
  <sub>*A Natural Multitask Vision-Language FL Dataset with 24,000 instances, integrating three public vision-language datasets — COCO(classification), RefCOCO(visual grounding and captioning generation), and COCO-QA(VQA)*</sub>
 ```
 /Fed-Nature
