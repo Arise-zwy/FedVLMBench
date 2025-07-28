@@ -7,7 +7,12 @@ FedVLMBench integrates two mainstream VLM architectures (encoder-based and encod
 ![intro](fedvlmbench.png)
 
 
+<details close>
+<summary><b>dataset summary:</b></summary>
 
+![dataset](./dataset.png)
+
+</details>
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -34,12 +39,6 @@ conda activate fedvlm
 ```
 
 ### 2. Configuration
-<details close>
-<summary><b>dataset summary:</b></summary>
-
-![dataset](./dataset.png)
-
-</details>
 #### Code
 ```
 /OpenFedLLM-main
