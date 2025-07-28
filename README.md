@@ -4,8 +4,13 @@
 
 FedVLMBench integrates two mainstream VLM architectures (encoder-based and encoder-free), four fine-tuning strategies, five FL algorithms, six multimodal datasets spanning four cross-domain single-task scenarios and two cross-domain multitask settings, covering four distinct downstream task categories. 
 
-![intro](fedvlmbench.png)
 
+<details open>
+<summary><b>dataset summary:</b></summary>
+
+![Main figure](fedvlmbench.png)
+
+</details>
 
 <details close>
 <summary><b>dataset summary:</b></summary>
