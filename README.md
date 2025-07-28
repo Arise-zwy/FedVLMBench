@@ -39,9 +39,8 @@ conda activate fedvlm
 ```
 
 ### 2. Configuration
-<details open>
+<details close>
 <summary><b>Code:</b></summary>
-
 <pre>
 /OpenFedLLM-main
 ├── /Nature_Multi
@@ -62,16 +61,13 @@ conda activate fedvlm
         ├── gen_FGVC_config.py
         └── gen_Nature_Multi_config.py
 </pre>
-
 </details>
 
 
-#### Datasets
+
 <details open>
 <summary><b>Dataset Summary:</b></summary>
-
 ![dataset](./dataset.png)
-
 </details>
 
 
