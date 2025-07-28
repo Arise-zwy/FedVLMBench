@@ -66,7 +66,7 @@ conda activate fedvlm
         └── gen_Nature_Multi_config.py
 
 ```
-<details close>
+<details oepn>
 <summary><b>Fed-FGVC: A Classification Vision-Language FL Dataset with 9,967 instances</b></summary>
 
 <pre>
@@ -82,9 +82,9 @@ conda activate fedvlm
 </details>
 
 
-<details close>
-<summary><b>Fed-Nature:A Natural Multitask Vision-Language FL Dataset with 24,000 instances</b></summary>
-```
+<details open>
+<summary><b>Fed-Nature: A Natural Multitask Vision-Language FL Dataset with 24,000 instances</b></summary>
+<pre>
 /Fed-Nature
 ├── /clients
 │   ├── /train
@@ -92,13 +92,12 @@ conda activate fedvlm
 └── /central_training
     ├── /train
     └── /test
-```
+</pre>
 </details>
 
-
-#### Fed-Med
- <sub>*A Medical Multitask Vision-Language FL Dataset with 20,590 instnces. Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and RadGenome-Chest CT(detection) datasets.*</sub>
-```
+<details close>
+<summary><b>Fed-Med: A Medical Multitask Vision-Language FL Dataset with 20,590 instances.</b></summary>
+<pre>
 /Fed-Med
 ├── /image
 │   ├── /MIMIC-CXR
@@ -111,11 +110,13 @@ conda activate fedvlm
 └── /central_training
     ├── /train
     └── /test
-```
+</pre>
+</details>
 
-#### Fed-RadGenome
- <sub>*A Visual Detection Vision-Language FL Dataset with 8,744 instances*</sub>
-```
+
+<details close>
+<summary><b>Fed-RadGenome: A Visual Detection Vision-Language FL Dataset with 8,744 instances.</b></summary>
+<pre>
 /Fed-RadGenome
 ├── /clients
 │   ├── /train
@@ -123,12 +124,13 @@ conda activate fedvlm
 └── /central_training
     ├── /train
     └── /test
-```
+</pre>
+</details>
 
 
-#### Fed-ScienceCap
- <sub>*A Caption Generation Vision-Language FL Dataset with 5,157 instances*</sub>
-```
+<details close>
+<summary><b>Fed-ScienceCap: A Caption Generation Vision-Language FL Dataset with 5,157 instances. </b></summary>
+<pre>
 /Fed-ScienceCap
 ├── /clients
 │   ├── /train
@@ -136,7 +138,9 @@ conda activate fedvlm
 └── /central_training
     ├── /train
     └── /test
-```
+</pre>
+</details>
+
 
 ### 3. Downloading
 
