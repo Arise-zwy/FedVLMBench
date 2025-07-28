@@ -2,7 +2,7 @@
 
 **OpenFedLLM** is a systematic benchmark for federated fine-tuning of VLMs. Please check our [paper](https://arxiv.org/abs/2506.09638) for details and the corresponding empirical study.
 
-FedVLMBench integrates two mainstream VLM architectures (encoder-based and encoder-free), four fine-tuning strategies, five FL algorithms, six multimodal datasets spanning four cross-domain single-task scenarios and two cross-domain multitask settings, covering four distinct downstream task categories. 
+FedVLMBench integrates 2 mainstream VLM architectures (encoder-based and encoder-free), 4 fine-tuning strategies, 5 FL algorithms, 6 multimodal datasets spanning four cross-domain single-task scenarios and 2 cross-domain multitask settings, covering 4 distinct downstream task categories. 
 
 
 <details open>
