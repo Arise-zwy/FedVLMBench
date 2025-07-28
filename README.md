@@ -6,14 +6,14 @@ FedVLMBench integrates two mainstream VLM architectures (encoder-based and encod
 
 
 <details open>
-<summary><b>dataset summary:</b></summary>
+<summary><b>Main Figure:</b></summary>
 
 ![Main figure](fedvlmbench.png)
 
 </details>
 
 <details close>
-<summary><b>dataset summary:</b></summary>
+<summary><b>Dataset Summary:</b></summary>
 
 ![dataset](./dataset.png)
 
