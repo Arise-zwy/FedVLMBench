@@ -53,7 +53,8 @@ conda activate fedvlm
         └── gen_Nature_Multi_config.py
 ```
 
-#### Fed-FGVC: A Classification Vision-Language FL Dataset.
+#### Fed-FGVC
+ <sub>*A Classification Vision-Language FL Dataset with 9,967 instances*</sub>
 ```
 /Fed-FGVC
 ├── /clients
@@ -64,8 +65,8 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-Nature: A Natural Multitask Vision-Language FL Dataset.
- <sub>*Fed-Nature integrates three public vision-language datasets — COCO(classification), RefCOCO(visual grounding and captioning generation), and COCO-QA(VQA)*</sub>
+#### Fed-Nature.
+ <sub>*A Natural Multitask Vision-Language FL Dataset with 24,000 instances, integrating three public vision-language datasets — COCO(classification), RefCOCO(visual grounding and captioning generation), and COCO-QA(VQA)*</sub>
 ```
 /Fed-Nature
 ├── /clients
@@ -76,9 +77,8 @@ conda activate fedvlm
     └── /test
 ```
 
-#### Fed-Med: A Medical Multitask Vision-Language FL Dataset.
- <sub>*Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and
-RadGenome-Chest CT(detection) datasets.*</sub>
+#### Fed-Med
+ <sub>*: A Medical Multitask Vision-Language FL Dataset with 20,590 instnces. Fed-Med unifies chest-related medical question answering, detection, report generation, and various other data sourced from the SLAKE (VQA), MIMIC-CXR (report generation), VQA-RAD (VQA), and RadGenome-Chest CT(detection) datasets.*</sub>
 ```
 /Fed-Med
 ├── /image
@@ -94,7 +94,8 @@ RadGenome-Chest CT(detection) datasets.*</sub>
     └── /test
 ```
 
-#### Fed-RadGenome: A Visual Detection Vision-Language FL Dataset.
+#### Fed-RadGenome
+ <sub>*: A Visual Detection Vision-Language FL Dataset with 8,744 instances*</sub>
 ```
 /Fed-RadGenome
 ├── /clients
@@ -106,7 +107,8 @@ RadGenome-Chest CT(detection) datasets.*</sub>
 ```
 
 
-#### Fed-ScienceCap: A Caption Generation Vision-Language FL Dataset.
+#### Fed-ScienceCap
+ <sub>*: : A Caption Generation Vision-Language FL Dataset with 5,157 instances*</sub>
 ```
 /Fed-ScienceCap
 ├── /clients
