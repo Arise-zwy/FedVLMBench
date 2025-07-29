@@ -141,6 +141,18 @@ conda activate fedvlm
 </pre>
 </details>
 
+<details close>
+<summary><b>Fed-SLAKE: A Visual Question Answering Vision-Language FL Dataset with 8,061 instances.</b></summary>
+<pre>
+/Fed-SLAKE
+├── /clients
+│   ├── /train
+│   └── /test
+└── /central_training
+    ├── /train
+    └── /test
+</pre>
+</details>
 
 <details close>
 <summary><b>Fed-ScienceCap: A Caption Generation Vision-Language FL Dataset with 5,157 instances. </b></summary>
