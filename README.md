@@ -21,12 +21,12 @@ FedVLMBench includes the following key features:
 
 
 ## Table of Contents
-- [Prerequisites](#1.prerequisites)
-- [Installation](#2.installation)
-- [Configuration](#3.configuration)
-- [Downloading](#4.Downloading)
-- [Running Experiments](#5.running-experiments)
-- [License](#6.license)
+- [1.Prerequisites](#1.prerequisites)
+- [2.Installation](#2.installation)
+- [3.Configuration](#3.configuration)
+- [4.Downloading](#4.Downloading)
+- [5.Running Experiments](#5.running-experiments)
+- [6.License](#6.license)
 
 ## 1.Prerequisites
 
