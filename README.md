@@ -21,14 +21,14 @@ FedVLMBench includes the following key features:
 
 
 ## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Downloading](#Downloading)
-- [Running Experiments](#running-experiments)
-- [License](#license)
+- [Prerequisites](#1.prerequisites)
+- [Installation](#2.installation)
+- [Configuration](#3.configuration)
+- [Downloading](#4.Downloading)
+- [Running Experiments](#5.running-experiments)
+- [License](#6.license)
 
-## Prerequisites
+## 1.Prerequisites
 
 - Linux operating system
 - NVIDIA GPU with CUDA capability
@@ -36,7 +36,7 @@ FedVLMBench includes the following key features:
 - Python 3.8+
 
 
-## Installation
+## 2.Installation
 
 ```
 conda env create -f env.yaml
@@ -44,7 +44,7 @@ conda activate fedvlm
 ```
 
 
-## Configuration
+## 3.Configuration
 
 <details close>
 <summary><b>Code:</b></summary>
@@ -156,7 +156,7 @@ conda activate fedvlm
 </details>
 
 
-## Downloading
+## 4.Downloading
 
 ### Step1: Download Models
 
@@ -244,7 +244,7 @@ Download the images in the ./images
 
 
 
-## Running Experiments
+## 5.Running Experiments
 
 ### Step1: Generate Configuration Files
 Generate your configuration files before running experiments:
@@ -277,7 +277,7 @@ python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Mul
 ```
 
 
-## Citation
+## 6.Citation
 If you find FedVLMbench useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2506.09638" target="_blank">paper</a>:
 ```
 @article{federatedscope,
