@@ -25,7 +25,7 @@ FedVLMBench includes the following key features:
 - [2.Installation](#2installation)
 - [3.Configuration](#3configuration)
 - [4.Downloading](#4downloading)
-- [5.Running Experiments](#5runningexperiments)
+- [5.Running Experiments](#5running-experiments)
 - [6.License](#6license)
 
 ## 1.Prerequisites
