@@ -276,6 +276,14 @@ python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Mul
 
 ```
 
+### Table 5: Performance comparison of different VLM architectures on various single-task datasets with
+IID and non-IID distributions
+
+<pre>
+python gen_config/encoder_based/gen_FGVC_config.py 
+</pre>
+
+
 
 ## 6.Citation
 If you find FedVLMbench useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2506.09638" target="_blank">paper</a>:
