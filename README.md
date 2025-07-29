@@ -276,8 +276,14 @@ python Nature_Multi/main_encoder_based_local_natural.py --config_path ./Nature_M
 
 ```
 
-### Table 5: Performance comparison of different VLM architectures on various single-task datasets with IID and non-IID distributions
+### Example: Performance comparison of different VLM architectures on various single-task datasets with IID and non-IID distributions
 
+<details open>
+<summary><b>Main Figure:</b></summary>
+
+![Example](table5.png)
+
+</details>
 <pre>
 python gen_config/encoder_based/gen_FGVC_config.py 
 python gen_config/encoder_based/gen_SLAKE_config.py 
