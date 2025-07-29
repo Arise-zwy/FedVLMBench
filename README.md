@@ -350,3 +350,7 @@ If you find FedVLMbench useful for your research or development, please cite the
   pages={1059--1072},
   year={2023}
 ```
+
+
+## Acknowledgements
+This repo is based on [OpenfedLlM](https://github.com/rui-ye/OpenFedLLM), [Show-o](https://github.com/showlab/Show-o), and [LLAVA](https://github.com/haotian-liu/LLaVA), thanks to the original authors for their works!
