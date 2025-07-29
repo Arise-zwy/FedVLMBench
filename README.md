@@ -7,7 +7,9 @@ FedVLMBench integrates 2 mainstream VLM architectures (encoder-based and encoder
 
 <details open>
 <summary><b>Main Figure:</b></summary>
+
 ![Main figure](fedvlmbench.png)
+
 </details>
 
 
@@ -37,13 +39,8 @@ conda activate fedvlm
 ```
 
 ### 2. Configuration
-<details open>
-<summary><b>Dataset Summary:</b></summary>
-![dataset](dataset.png)
-</details>
-<details close>
-<summary><b>Code:</b></summary>
-<pre>
+#### Code
+```
 /OpenFedLLM-main
 ├── /Nature_Multi
 │   ├── main_encoder_based_fed_natural.py
@@ -62,11 +59,15 @@ conda activate fedvlm
     └── /encoder_based
         ├── gen_FGVC_config.py
         └── gen_Nature_Multi_config.py
-</pre>
+
+```
+#### Datasets
+<details open>
+<summary><b>Dataset Summary:</b></summary>
+
+![dataset](./dataset.png)
+
 </details>
-
-
-
 
 
 <details close>
