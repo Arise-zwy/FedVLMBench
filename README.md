@@ -264,25 +264,33 @@ python gen_config/encoder_based/gen_FGVC_config.py
 # Federated training (encoder_free VLM)
 python Nature_Multi/main_encoder_free_fed_natural.py --config_path ./Nature_Multi/encoder_free/fedavg_auto/config.yaml
 
-# Federated training (encoder-based VLM) 
-python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Multi/encoder_based/fedavg_auto/config.yaml
+# Central training (encoder-based VLM) 
+python Nature_Multi/main_encoder_based_local_natural.py --config_path ./Nature_Multi/encoder_based/cent_auto/config.yaml
 
 
 # Federated training (encoder_free VLM)
-python Nature_Multi/main_encoder_free_local_natural.py --config_path ./Nature_Multi/encoder_free/fedavg_auto/config.yaml
+python Nature_Multi/main_encoder_free_fed_natural.py --config_path ./Nature_Multi/encoder_free/fedavg_auto/config.yaml
 
 # Central training (encoder-based VLM)
-python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Multi/encoder_based/cent_auto/pro_lora_config.yaml
+python Nature_Multi/main_encoder_based_local_natural.py --config_path ./Nature_Multi/encoder_based/cent_auto/config.yaml
 
 ```
 
-### Table 5: Performance comparison of different VLM architectures on various single-task datasets with
-IID and non-IID distributions
+### Table 5: Performance comparison of different VLM architectures on various single-task datasets with IID and non-IID distributions
 
 <pre>
 python gen_config/encoder_based/gen_FGVC_config.py 
+python gen_config/encoder_based/gen_SLAKE_config.py 
+python gen_config/encoder_based/gen_RadGenome_config.py 
+python gen_config/encoder_based/gen_ScienceCap_config.py 
 </pre>
 
+<pre>
+python gen_config/encoder_based/gen_FGVC_config.py 
+python gen_config/encoder_based/gen_SLAKE_config.py 
+python gen_config/encoder_based/gen_RadGenome_config.py 
+python gen_config/encoder_based/gen_ScienceCap_config.py 
+</pre>
 
 
 ## 6.Citation
