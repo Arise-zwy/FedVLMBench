@@ -159,23 +159,46 @@ conda activate fedvlm
 ### 3. Downloading
 
 #### Step1: Download Models
+
+
+
 First, Download the models in the ./pretrained_models 
-##### LLaMA-Instruct 3.2 3B
-```
+
+
+<details close>
+<summary><b>LLaMA-Instruct 3.2 3B:</b></summary>
+
+<pre>
 from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
 model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
-```
+</pre>
 
-##### CLIP ViT-B-32
+</details>
 
-```
+
+
+<details close>
+<summary><b>CLIP ViT-B-32:</b></summary>
+
+<pre>
 from transformers import AutoProcessor, AutoModelForZeroShotImageClassification
 processor = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
 model = AutoModelForZeroShotImageClassification.from_pretrained("openai/clip-vit-base-patch32")
-```
-##### Show-o 1.5B
+</pre>
+
+</details>
+
+
+<details close>
+<summary><b>Show-o 1.5B:</b></summary>
+
 https://huggingface.co/showlab/show-o-512x512/tree/main
+
+</details>
+
+
+
 
 #### Step2: Download Images
 Download the images in the ./images
