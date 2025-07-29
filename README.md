@@ -286,10 +286,13 @@ python gen_config/encoder_based/gen_ScienceCap_config.py
 </pre>
 
 <pre>
-python gen_config/encoder_based/gen_FGVC_config.py 
-python gen_config/encoder_based/gen_SLAKE_config.py 
-python gen_config/encoder_based/gen_RadGenome_config.py 
-python gen_config/encoder_based/gen_ScienceCap_config.py 
+python FGVC/main_encoder_based_fed_fgvc.py --config_path ./FGVC/encoder_free/fedavg_auto/config.yaml
+python FGVC/main_encoder_based_fed_fgvc.py --config_path ./FGVC/encoder_free/fedprox_auto/config.yaml
+python FGVC/main_encoder_based_fed_fgvc.py --config_path ./FGVC/encoder_free/fedprox_auto/config.yaml
+    ...
+python SLAKE/main_encoder_based_fed_slake.py --config_path ./SLAKE/encoder_free/fedadam_auto/config.yaml
+python SLAKE/main_encoder_based_fed_slake.py --config_path ./SLAKE/encoder_free/fedavgm_auto/config.yaml
+python SLAKE/main_encoder_based_fed_slake.py --config_path ./SLAKE/encoder_free/fedyogi_auto/config.yaml
 </pre>
 
 
