@@ -50,17 +50,17 @@ conda activate fedvlm
 <summary><b>Code:</b></summary>
 <pre>
 /OpenFedLLM-main
-├── /Nature_Multi
+├── /Nature_Multi      #code for multi-task collaborative fedrated datasets
 │   ├── main_encoder_based_fed_natural.py
 │   ├── main_encoder_free_fed_natural.py
 │   ├── main_encoder_based_local_natural.py
 │   └── main_encoder_free_local_natural.py
-├── /FGVC
+├── /FGVC              #code for single-task fedrated datasets
 │   ├── main_encoder_based_fed_fgvc.py
 │   ├── main_encoder_free_fed_fgvc.py
 │   ├── main_encoder_based_local_fgvc.py
 │   └── main_encoder_free_local_fgvc.py
-└── /gen_config
+└── /gen_config        #code for config generation 
     ├── /encoder_free
     │   ├── gen_Natural_Multi_config.py
     │   └── gen_FGVC_config.py
