@@ -41,6 +41,7 @@ conda activate fedvlm
 ### 2. Configuration
 
 <details close>
+<summary><b>Code:</b></summary>
 <pre>
 /OpenFedLLM-main
 ├── /Nature_Multi
