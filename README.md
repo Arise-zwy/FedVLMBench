@@ -39,8 +39,9 @@ conda activate fedvlm
 ```
 
 ### 2. Configuration
-#### Code
-```
+
+<details close>
+<pre>
 /OpenFedLLM-main
 ├── /Nature_Multi
 │   ├── main_encoder_based_fed_natural.py
@@ -59,9 +60,12 @@ conda activate fedvlm
     └── /encoder_based
         ├── gen_FGVC_config.py
         └── gen_Nature_Multi_config.py
+</pre>
 
-```
-#### Datasets
+</details>
+
+
+
 <details open>
 <summary><b>Dataset Summary:</b></summary>
 
