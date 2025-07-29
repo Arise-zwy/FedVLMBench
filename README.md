@@ -341,14 +341,15 @@ python SLAKE/main_encoder_based_fed_slake.py --config_path ./SLAKE/encoder_free/
 ## 6.Citation
 If you find FedVLMbench useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2506.09638" target="_blank">paper</a>:
 ```
-@article{federatedscope,
-  title = {FederatedScope: A Flexible Federated Learning Platform for Heterogeneity},
-  author = {Xie, Yuexiang and Wang, Zhen and Gao, Dawei and Chen, Daoyuan and Yao, Liuyi and Kuang, Weirui and Li, Yaliang and Ding, Bolin and Zhou, Jingren},
-  journal={Proceedings of the VLDB Endowment},
-  volume={16},
-  number={5},
-  pages={1059--1072},
-  year={2023}
+@misc{zheng2025fedvlmbenchbenchmarkingfederatedfinetuning,
+      title={FedVLMBench: Benchmarking Federated Fine-Tuning of Vision-Language Models}, 
+      author={Weiying Zheng and Ziyue Lin and Pengxin Guo and Yuyin Zhou and Feifei Wang and Liangqiong Qu},
+      year={2025},
+      eprint={2506.09638},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.09638}, 
+}
 ```
 
 
