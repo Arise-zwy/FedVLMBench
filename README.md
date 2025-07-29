@@ -258,6 +258,30 @@ python gen_config/encoder_free/gen_FGVC_config.py
 python gen_config/encoder_based/gen_FGVC_config.py
 ```
 
+How to modify the configs? What can I modify?
+- encoder-based or encoder free
+- 4 kinds of finetuning strategies 
+- 5 fedrated algorithm
+- 6 different datasets
+- iid / non-iid setting in fedrated learning
+- other hyperparameters
+
+```
+    generate_fed_yaml(
+        fed_alg=method,                                   #5 fedrated algorithm (fedavg, fedprox, fedyogi, fedadam, fedadagrad)
+        task_type=f"pro_lora",                            #4 fintuning strategy (F-C, F-L, F-CL, F-2stage)
+        data_path= f"./data/Fed-FGVC/",                   #6 different datasets (Fed-FGVC, Fed-ScienceCap, Fed-SLAKE, Fed-RadGenome, Fed-Nature, Fed-Med)
+        output_dir=f"./output/Fed-FGVC/encoder_based/fed/pro_lora/{data_split}/{method}/",   
+        avg_lora=True,                                    #fintuning strategy 1
+        lora_enable=True,                                 #fintuning strategy 2
+        avg_projector=True,                               #fintuning strategy 3
+        tune_mm_mlp_adapter=True,                         #fintuning strategy 4
+        task_name="Fed-FGVC",                             #task name
+        yaml_path=f"./FGVC/config_encoder_based/fed/{data_split}/{method}/pro_lora_config.yaml"
+
+    )
+```
+
 
 ### Step2: Run Training Experiments
 ```
@@ -279,7 +303,7 @@ python Nature_Multi/main_encoder_based_local_natural.py --config_path ./Nature_M
 ### Example: Performance comparison of different VLM architectures on various single-task datasets with IID and non-IID distributions
 
 <details open>
-<summary><b>Main Figure:</b></summary>
+<summary><b>Example:</b></summary>
 
 ![Example](table5.png)
 
