@@ -1,6 +1,8 @@
 # FedVLMBench: Benchmarking Federated Fine-Tuning of Vision Language Models
 
-**OpenFedLLM** is a systematic benchmark for federated fine-tuning of VLMs. Please check our [paper](https://arxiv.org/abs/2506.09638) for details and the corresponding empirical study.
+**OpenFedLLM** is a systematic benchmark for federated fine-tuning of VLMs. 
+Please check our [paper](https://arxiv.org/abs/2506.09638) for details and the corresponding empirical study.
+Please check our [dataset](https://www.kaggle.com/datasets/robinlin2002/fedvlmbench) in Kaggle.
 
 
 FedVLMBench includes the following key features:
