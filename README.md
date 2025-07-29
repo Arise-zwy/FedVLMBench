@@ -35,16 +35,16 @@ FedVLMBench includes the following key features:
 - Conda package manager
 - Python 3.8+
 
-## Installation
 
-### 1. Set Up Conda Environment
+## Installation
 
 ```
 conda env create -f env.yaml
 conda activate fedvlm
 ```
 
-### 2. Configuration
+
+## Configuration
 
 <details close>
 <summary><b>Code:</b></summary>
@@ -156,9 +156,9 @@ conda activate fedvlm
 </details>
 
 
-### 3. Downloading
+## Downloading
 
-#### Step1: Download Models
+### Step1: Download Models
 
 
 
@@ -200,7 +200,7 @@ https://huggingface.co/showlab/show-o-512x512/tree/main
 
 
 
-#### Step2: Download Images
+### Step2: Download Images
 Download the images in the ./images
 
 
@@ -244,9 +244,9 @@ Download the images in the ./images
 
 
 
-### 4. Running Experiments
+## Running Experiments
 
-#### Step1: Generate Configuration Files
+### Step1: Generate Configuration Files
 Generate your configuration files before running experiments:
 ```
 # Generate Natural_Multi configs
@@ -259,7 +259,7 @@ python gen_config/encoder_based/gen_FGVC_config.py
 ```
 
 
-#### Step2: Run Training Experiments
+### Step2: Run Training Experiments
 ```
 # Federated training (encoder_free VLM)
 python Nature_Multi/main_encoder_free_fed_natural.py --config_path ./Nature_Multi/encoder_free/fedavg_auto/config.yaml
@@ -277,7 +277,7 @@ python Nature_Multi/main_encoder_based_fed_natural.py --config_path ./Nature_Mul
 ```
 
 
-### Citation
+## Citation
 If you find FedVLMbench useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2506.09638" target="_blank">paper</a>:
 ```
 @article{federatedscope,
