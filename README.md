@@ -354,4 +354,4 @@ If you find FedVLMbench useful for your research or development, please cite the
 
 
 ## Acknowledgements
-This repo is based on [OpenfedLlM](https://github.com/rui-ye/OpenFedLLM), [Show-o](https://github.com/showlab/Show-o), and [LLAVA](https://github.com/haotian-liu/LLaVA), thanks to the original authors for their works!
+This repo is based on [OpenfedLLM](https://github.com/rui-ye/OpenFedLLM), [Show-o](https://github.com/showlab/Show-o), and [LLAVA](https://github.com/haotian-liu/LLaVA), thanks to the original authors for their works!
